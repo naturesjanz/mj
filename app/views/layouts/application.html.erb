@@ -8,7 +8,7 @@
      .fonts {color:white;}
     </style>
 
-	<title>Pring Hindi IC</title>
+	<title>MJ THE GREAT</title>
 	<%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -16,13 +16,13 @@
 
   </head>
 
-  <body style="background-color: red;">
+  <body style="background-color: gray;">
 	<!-- Navigation -->
 	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
 				
-				<%= link_to "PringHindiIC", root_url, class: "navbar-brand fonts" %>
+				<%= link_to "MJ THE GREAT", root_url, class: "navbar-brand fonts" %>
 			</div>
 	        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
@@ -56,6 +56,21 @@
         		<div class="alert alert-success"> <%= b %> </div>
         		<% end %>
           <%= yield %>
+           <style>
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+</style>
+
+<div class="footer">
+  <p>MJ THE GREAT 2018</p> 
+</div> 
         </div>
       </div>
     </div>
